@@ -8,26 +8,38 @@
 </head>
 <body>
 	<div class="container">
-		<div class="nav">
+		<nav>
 			<ul>
-				<li>HOME</li>
-				<li>SPONSORS</li>
-				<li>EVENTS</li>
-				<li>REGISTER HERE!</li>
-				<li>ABOUT US</li>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">SPONSORS</a></li>
+				<li><a href="#">EVENTS</a></li>
+				<li><a href="#">REGISTER HERE!</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">CONTACT US</a></li>
 			</ul>
-		</div>
+		</nav>
 		<div class="main">
 		<h2>Thank you for a great first season!</h2>
 		<p>Stay tuned for next year's schedule!</p>
-		<img style="object-position:50% 50%;width:495px;height:486px;object-fit:cover" src="images/shorebreakers_logo.jpg">
+
+		<picture>
+		  <source srcset="images/shorebreakers_logo.webp" type="image/webp">
+		  <source srcset="images/shorebreakers_logo.jpg" type="image/jpeg"> 
+		  <img style="object-position:50% 50%;width:495px;height:486px;object-fit:cover" src="images/shorebreakers_logo.jpg" alt="Alt Text!">
+		</picture>
 		<p>Bringing AVP America tournaments to Santa Barbara, CA
-		<br><img style="object-position:50% 50%;width:428px;height:253px;object-fit:cover" src="images/AVPLogo.jpg">
+		<picture>
+		  <source srcset="images/AVPlogo.webp" type="image/webp">
+		  <source srcset="images/AVPlogo.jpg" type="image/jpeg"> 
+		  <br><img style="object-position:50% 50%;width:428px;height:253px;object-fit:cover" src="images/AVPlogo.jpg" alt="Alt Text!">
+		</picture>
 		</div>
 	</div>
 </body>
 <footer>
-	<img style="width:3%" src="images/facebook_icon.png" href="https://www.facebook.com/shorebreakersvb/?modal=admin_todo_tour">
-	<img style="width:3%" src="images/instagram_icon.png" href="https://www.instagram.com/shorebreakersvb/">
+	<a href="https://www.facebook.com/shorebreakersvb/?modal=admin_todo_tour">
+	<img style="width:3%" src="images/facebook_icon.png"></a>
+	<a href="https://www.instagram.com/shorebreakersvb/">
+	<img style="width:3%" src="images/instagram_icon.png"></a>
 </footer>
 </html>
